@@ -1,0 +1,90 @@
+/* Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Utility */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;    
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;   
+}
+
+.m-heading {
+    font-size: 2rem;
+}
+
+.pa-y-1 {
+    padding: 1.5rem 0rem;
+}
+
+.pa-y-2 {
+    padding-top: 2rem 0rem;
+}
+
+.pa-y-3 {
+    padding-top: 3rem 0rem;
+}
+
+
+.pa-x-1 {
+    padding: 0rem 1.5rem;
+}
+
+.pa-x-2 {
+    padding-top: 0rem 2rem;
+}
+
+.pa-x-3 {
+    padding-top: 0rem 3rem;
+}
+
+/* Nav Bar */
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 2rem;
+}
+
+.nav-bar h2 {
+    font-weight: bolder;
+}
+
+.nav-bar ul {
+    padding-top: .75rem;
+    display: flex;
+}
+
+.nav-bar .nav-bar-menu-li {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 1.25rem;
+    font-weight: bolder;
+    
+}
+
+/* Footer */
+
+.footer-group {
+    height: 4rem;
+    margin-top: 1rem;
+    border-color: lightcoral;
+    border-style: solid;
+    font-size: 1.15rem;
+    font-weight: bold;
+    background-color: lawngreen;
+    text-align: center;
+}
+
